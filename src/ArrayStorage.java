@@ -1,6 +1,4 @@
-import Resume;
 
-package storage;
 /**
  * Array based storage for Resumes
  */
