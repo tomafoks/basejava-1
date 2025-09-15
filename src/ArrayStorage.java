@@ -4,11 +4,15 @@
  */
 public class ArrayStorage {
     Resume[] storage = new Resume[10000];
+    private int size = 0;
 
     void clear() {
     }
 
     void save(Resume r) {
+        for (int i = 0; i < size; i++) {
+            
+        }
     }
 
     Resume get(String uuid) {
@@ -26,6 +30,6 @@ public class ArrayStorage {
     }
 
     int size() {
-        return 0;
+        return size;
     }
 }
